@@ -1,0 +1,2461 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+	<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+		<Author>saznn</Author>
+		<LastAuthor>Кондрашов</LastAuthor>
+		<Created>2011-06-03T08:26:40Z</Created>
+		<LastSaved>2011-09-07T06:57:52Z</LastSaved>
+		<Company>*</Company>
+		<Version>11.9999</Version>
+	</DocumentProperties>
+	<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+		<WindowHeight>10368</WindowHeight>
+		<WindowWidth>15456</WindowWidth>
+		<WindowTopX>240</WindowTopX>
+		<WindowTopY>132</WindowTopY>
+		<ProtectStructure>False</ProtectStructure>
+		<ProtectWindows>False</ProtectWindows>
+	</ExcelWorkbook>
+	<Styles>
+		<Style ss:ID="Default" ss:Name="Normal">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders/>
+			<Font ss:FontName="Arial Cyr" x:CharSet="204"/>
+			<Interior/>
+			<NumberFormat/>
+			<Protection/>
+		</Style>
+		<Style ss:ID="s21">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+		</Style>
+		<Style ss:ID="s22">
+			<NumberFormat ss:Format="0"/>
+		</Style>
+		<Style ss:ID="s23">
+			<Alignment ss:Vertical="Bottom"/>
+			<Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"/>
+			<NumberFormat ss:Format="Standard"/>
+		</Style>
+		<Style ss:ID="s24">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204"/>
+		</Style>
+		<Style ss:ID="s25">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+		</Style>
+		<Style ss:ID="s26">
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204"/>
+		</Style>
+		<Style ss:ID="s27">
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204"/>
+			<NumberFormat ss:Format="0"/>
+		</Style>
+		<Style ss:ID="s28">
+			<Alignment ss:Vertical="Bottom"/>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+			<NumberFormat ss:Format="Standard"/>
+		</Style>
+		<Style ss:ID="s29">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8" ss:Bold="1"/>
+		</Style>
+		<Style ss:ID="s30">
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Bold="1"/>
+		</Style>
+		<Style ss:ID="s31">
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Bold="1"/>
+			<NumberFormat ss:Format="0"/>
+		</Style>
+		<Style ss:ID="s32">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8" ss:Bold="1"/>
+			<NumberFormat ss:Format="Standard"/>
+		</Style>
+		<Style ss:ID="s33">
+			<Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8" ss:Bold="1"/>
+			<NumberFormat ss:Format="Standard"/>
+		</Style>
+		<Style ss:ID="s34">
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204"/>
+		</Style>
+		<Style ss:ID="s35">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+		</Style>
+		<Style ss:ID="s36">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+		</Style>
+		<Style ss:ID="s37">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+			<NumberFormat ss:Format="0"/>
+		</Style>
+		<Style ss:ID="s38">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+			<NumberFormat ss:Format="Standard"/>
+		</Style>
+		<Style ss:ID="s39">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+			<NumberFormat ss:Format="Short Date"/>
+		</Style>
+		<Style ss:ID="s40">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+		</Style>
+		<Style ss:ID="s41">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+		</Style>
+		<Style ss:ID="s42">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+			<NumberFormat ss:Format="0"/>
+		</Style>
+		<Style ss:ID="s43">
+			<Alignment ss:Horizontal="Right" ss:Vertical="Top"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+			<NumberFormat ss:Format="Standard"/>
+		</Style>
+		<Style ss:ID="s44">
+			<Alignment ss:Vertical="Top"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+			<NumberFormat ss:Format="Standard"/>
+		</Style>
+		<Style ss:ID="s45">
+			<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+		</Style>
+		<Style ss:ID="s46">
+			<Alignment ss:Vertical="Top"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+			<NumberFormat ss:Format="Standard"/>
+		</Style>
+		<Style ss:ID="s47">
+			<Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8" ss:Bold="1"/>
+		</Style>
+		<Style ss:ID="s48">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders/>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204"/>
+			<Interior/>
+			<NumberFormat/>
+			<Protection/>
+		</Style>
+		<Style ss:ID="s49">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8" ss:Bold="1"/>
+		</Style>
+		<Style ss:ID="s50">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Bold="1"/>
+		</Style>
+		<Style ss:ID="s51">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Bold="1"/>
+			<NumberFormat ss:Format="#,##0.00;[Red]#,##0.00"/>
+		</Style>
+		<Style ss:ID="s52">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Bold="1"/>
+			<NumberFormat ss:Format="#,##0.00;[Red]#,##0.00"/>
+		</Style>
+		<Style ss:ID="s53">
+			<Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8" ss:Bold="1"/>
+			<NumberFormat ss:Format="#,##0.00;[Red]#,##0.00"/>
+		</Style>
+		<Style ss:ID="s54">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+		</Style>
+		<Style ss:ID="s55">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+			<NumberFormat ss:Format="#,##0.00;[Red]#,##0.00"/>
+		</Style>
+		<Style ss:ID="s56">
+			<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8"/>
+			<NumberFormat ss:Format="#,##0.00;[Red]#,##0.00"/>
+		</Style>
+		<Style ss:ID="s57">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Size="8" ss:Bold="1"/>
+		</Style>
+		<Style ss:ID="s58">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204" ss:Bold="1"/>
+		</Style>
+		<Style ss:ID="s59">
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+			</Borders>
+			<Font ss:FontName="TimesNewRoman" x:CharSet="204"/>
+		</Style>
+	</Styles>
+	<Worksheet ss:Name="Лист1">
+		<Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="65535" x:FullColumns="1" x:FullRows="1" ss:DefaultRowHeight="13.2">
+			<Column ss:StyleID="s21" ss:Width="113.39999999999999" ss:Hidden="1"/>
+			<Column ss:AutoFitWidth="0" ss:Width="46.800000000000004"/>
+			<Column ss:AutoFitWidth="0" ss:Width="37.2"/>
+			<Column ss:AutoFitWidth="0" ss:Width="24.6"/>
+			<Column ss:AutoFitWidth="0" ss:Width="124.2"/>
+			<Column ss:StyleID="s22" ss:AutoFitWidth="0" ss:Width="104.39999999999999"/>
+			<Column ss:StyleID="s23" ss:AutoFitWidth="0" ss:Width="103.2"/>
+			<Column ss:StyleID="s23" ss:AutoFitWidth="0" ss:Width="96"/>
+			<Column ss:AutoFitWidth="0" ss:Width="96"/>
+			<Column ss:AutoFitWidth="0" ss:Width="210"/>
+			<Row ss:AutoFitHeight="0">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s25">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" Г МОСКВА </Data>
+				</Cell>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s27"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s26"/>
+			</Row>
+			<Row ss:AutoFitHeight="0">
+				<Cell ss:StyleID="s24"/>
+				<Cell ss:StyleID="s25">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s27"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s26"/>
+			</Row>
+			<Row ss:AutoFitHeight="0">
+				<Cell ss:StyleID="s24"/>
+				<Cell ss:StyleID="s25">
+					<Data ss:Type="String"> ВЫПИСКА  ИЗ ЛИЦЕВОГО СЧЕТА</Data>
+				</Cell>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s27"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s26"/>
+			</Row>
+			<Row ss:AutoFitHeight="0">
+				<Cell ss:StyleID="s24"/>
+				<Cell ss:StyleID="s25">
+					<Data ss:Type="String">c 13.02.2015 до 18.03.2017</Data>
+				</Cell>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s27"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s26"/>
+			</Row>
+			<Row ss:AutoFitHeight="0">
+				<Cell ss:StyleID="s24"/>
+				<Cell ss:StyleID="s25"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s27"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s26"/>
+			</Row>
+			<Row ss:AutoFitHeight="0">
+				<Cell ss:StyleID="s24"/>
+				<Cell ss:StyleID="s25">
+					<Data ss:Type="String">Счет 40702810992000034311 (АО "Энцефалон". Тип счета: Пассивный, Валюта 810) </Data>
+				</Cell>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s27"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s26"/>
+			</Row>
+			<Row ss:AutoFitHeight="0">
+				<Cell ss:StyleID="s24"/>
+				<Cell ss:StyleID="s25">
+					<Data ss:Type="String">Владелец счета: АО "Энцефалон"</Data>
+				</Cell>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s27"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s26"/>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="16.5">
+				<Cell ss:StyleID="s24"/>
+				<Cell ss:StyleID="s25"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s27"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s26"/>
+			</Row>
+			<Row ss:AutoFitHeight="0">
+				<Cell ss:StyleID="s24"/>
+				<Cell ss:StyleID="s25">
+					<Data ss:Type="String">Дата предыдущего движения - не определена</Data>
+				</Cell>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s27"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s26"/>
+			</Row>
+			<Row ss:AutoFitHeight="0">
+				<Cell ss:StyleID="s24"/>
+				<Cell ss:StyleID="s25"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s26"/>
+				<Cell ss:StyleID="s27"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s28"/>
+				<Cell ss:StyleID="s26"/>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="13.8">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s29">
+					<Data ss:Type="String">ВХОДЯЩИЙ ОСТАТОК на 09.01.2017</Data>
+				</Cell>
+				<Cell ss:StyleID="s30"/>
+				<Cell ss:StyleID="s30"/>
+				<Cell ss:StyleID="s30"/>
+				<Cell ss:StyleID="s30"/>
+				<Cell ss:StyleID="s31"/>
+				<Cell ss:StyleID="s32"/>
+				<Cell ss:StyleID="s33">
+					<Data ss:Type="Number">45321.12</Data>
+				</Cell>
+				<Cell ss:StyleID="s34"/>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="13.8">
+				<Cell ss:StyleID="s24"/>
+				<Cell ss:StyleID="s35">
+					<Data ss:Type="String">Дата</Data>
+				</Cell>
+				<Cell ss:StyleID="s36">
+					<Data ss:Type="String">№ док.</Data>
+				</Cell>
+				<Cell ss:StyleID="s36">
+					<Data ss:Type="String">ВО</Data>
+				</Cell>
+				<Cell ss:StyleID="s36">
+					<Data ss:Type="String">Название корр.</Data>
+				</Cell>
+				<Cell ss:StyleID="s36">
+					<Data ss:Type="String">БИК банка корр.</Data>
+				</Cell>
+				<Cell ss:StyleID="s37">
+					<Data ss:Type="String">Лицевой счет</Data>
+				</Cell>
+				<Cell ss:StyleID="s38">
+					<Data ss:Type="String">Дебет</Data>
+				</Cell>
+				<Cell ss:StyleID="s38">
+					<Data ss:Type="String">Кредит</Data>
+				</Cell>
+				<Cell ss:StyleID="s36">
+					<Data ss:Type="String">Назначение</Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">16.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">4 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">УФК по г. Москве (Государственное учреждение  Московское региональное отделение Фонда социального страхования Российской Федерации) </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044583001 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40101810800000010041 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">452.4</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Взносы в ФСС за сотрудника. декабрь 2016 </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">16.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">3 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Управление Федерального казначейства по г. Москве (Инспекция Федеральной налоговой службы № 14 по г.Москве) </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044583001 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40101810800000010041 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">795.6</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Взносы в фонд обязательного медицинского страхования за сотрудников. декабрь 2016 </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">16.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">1 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Управление Федерального казначейства по г. Москве (Инспекция Федеральной налоговой службы № 14 по г.Москве) </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044583001 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40101810800000010041 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">2028</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Налог на доходы физических лиц, удержанный из доходов  работников за  декабрь 2016 года. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">16.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">2 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Управление Федерального казначейства по г. Москве (Инспекция Федеральной налоговой службы № 14 по г.Москве) </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044583001 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40101810800000010041 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">3432</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Взносы в ПФР за сотрудника за декабрь 2016 </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">19.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">33773562 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">27</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за расчетные услуги банка за период с 19/01/2017 по 19/01/2017 по договору банковского счета N10-34311 от 08/12/2016. НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">19.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">5 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО "АйТиЭс Коннект" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525593 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810102340000391 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">1717.6</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Оплата услуг по аренде сервера, аренде порта коммутатора 100Mbps и предоставлению IPv4-адреса договор № А-723 от 18.01.2017. НДС не облагается </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">19.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">1542 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО "Брейн Девелопмент" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044030785 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810600020001993 </Data>
+				</Cell>
+				<Cell ss:StyleID="s46"/>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">25000</Data>
+				</Cell>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Оконч. расчёт по счету №1612-002 от 22.12.2016 г.^за услуги по разработке технического задания по перспективным профессиям в нейрофизиологии. ^Сумма: 25000-00. ^НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">24.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">1557 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО "Брейн Девелопмент" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044030785 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810600020001993 </Data>
+				</Cell>
+				<Cell ss:StyleID="s46"/>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">103950</Data>
+				</Cell>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Предоплата разработки модуля сканирования сетевых устройств и функций в соответствии с договором № Д1701-012 от 21.12.2016, счет № 1712-014 от 23.01.2017 г. ^Сумма: 103950-00.^НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">24.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">1556 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО "Брейн Девелопмент" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044030785 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810600020001993 </Data>
+				</Cell>
+				<Cell ss:StyleID="s46"/>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">103950</Data>
+				</Cell>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Предоплата разработки модуля автоматического обновления системы в соответствии с договором № Д1701-012 от 21.12.2016, счет № 1712-014 от 23.01.2017 г. ^Сумма: 103950-00.^НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">24.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">1558 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО "Брейн Девелопмент" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044030785 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810600020001993 </Data>
+				</Cell>
+				<Cell ss:StyleID="s46"/>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">264600</Data>
+				</Cell>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Предоплата разработки модуля интерфейса пользователей разного уровня в соответствии с договором № Д1701-012 от 21.12.2016, счет № 1712-014 от 23.01.2017 г. ^Сумма: 264600-00.^НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">24.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">1555 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО "Брейн Девелопмент" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044030785 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810600020001993 </Data>
+				</Cell>
+				<Cell ss:StyleID="s46"/>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">387000</Data>
+				</Cell>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Предоплата разработки модуля сетевого сопряжения протоколов в соответствии с договором № Д1701-012 от 21.12.2016, счет № 1712-014 от 23.01.2017 г. ^Сумма: 387000-00.^НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">26.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">40369624 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">168.93</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за расчетные услуги банка за период с 26/01/2017 по 26/01/2017 по договору банковского счета N10-34311 от 08/12/2016. НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">26.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">6 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО "АйТиЭс Коннект" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525593 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810102340000391 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">3800</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Оплата услуг по аренде сервера, аренде порта коммутатора 100Mbps и предоставлению IPv4-адреса договор № А-723 от 18.01.2017. за февраль 2017 НДС не облагается </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">26.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">8 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Константинов Григорий Павлович </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525974 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40817810700000861391 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">6786</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Заработная плата за январь 2017 г. НДС не облагается. НДФЛ удержан </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">26.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">7 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Гусев Арсентий Петрович </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40817810192003101428 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">6786</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Заработная плата за январь 2016 г. НДС не облагается. НДФЛ удержан </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">26.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">10 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО "СэвэнГрупп" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525593 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810402540000257 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">15000</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Арендная плата за январь 2017 г. Договор субаренды №  КРАС/18/11/2016 от 18.11.2016 г. НДС не облагается </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">26.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">9 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО "СэвэнГрупп" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525593 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810402540000257 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">15000</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Арендная плата за февраль 2017 г. Договор субаренды №  КРАС/18/11/2016 от 18.11.2016 г. НДС не облагается </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">26.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">13 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Гусев Арсентий Петрович </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525225 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">30301810800006003800 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">35000</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Для зачисления на карту 4276380136752180 на имя Гусев Арсентий Петрович  Возврат беспроцентного займа НДС не облагается </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">26.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">12 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Гусев Арсентий Петрович </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525225 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">30301810800006003800 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">82000</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Для зачисления на карту 4276380136752180 на имя Гусев Арсентий Петрович  Возврат беспроцентного займа НДС не облагается </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">30.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">43239741 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">27</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за расчетные услуги банка за период с 30/01/2017 по 30/01/2017 по договору банковского счета N10-34311 от 08/12/2016. НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">30.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">14 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">АО "Реестр" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525232 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40701810400000000130 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">10500</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Услуги по ведению и хранению реестра владельцев именных ценных бумаг 1 квартал 2017 г. Абон.договор № 16-12/1 от 01.12.2016 НДС не облагается </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">31.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">45670762 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">250</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за период с 01/01/2017 по 31/01/2017 за ведение расчетного счета  НДС не облагается. Согласно п. 1.2 Сборника Тарифов. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">31.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">45596409 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">250</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за период с 01/01/2017 по 31/01/2017 за ведение расчетного счета  НДС не облагается. Согласно п. 1.2 Сборника Тарифов. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">31.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">45970741 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">625</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия ежемесячное обслуживание за период с 01/01/2017 по 31/01/2017 системы ДБО. НДС не облагается. Согласно п. 7.1 Сборника Тарифов. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">31.01.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">45970792 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за период с 01/01/2017 по 31/01/2017 за ведение расчетного счета  НДС не облагается. Согласно п. 1.2 Сборника Тарифов. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">17.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">20 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">УФК по г. Москве (Государственное учреждение  Московское региональное отделение Фонда социального страхования Российской Федерации) </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525000 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40101810045250010041 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">452.4</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Взносы в ФСС за сотрудника. январь 2017 </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">17.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">21 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Управление Федерального казначейства по г. Москве (Инспекция Федеральной налоговой службы № 14 по г.Москве) </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525000 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40101810045250010041 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">795.6</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Взносы в фонд обязательного медицинского страхования за сотрудников. январь 2017 </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">17.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">19 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Управление Федерального казначейства по г. Москве (Инспекция Федеральной налоговой службы № 14 по г.Москве) </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525000 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40101810045250010041 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">2028</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Налог на доходы физических лиц, удержанный из доходов  работников за  январь 2017 года. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">17.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">22 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Управление Федерального казначейства по г. Москве (Инспекция Федеральной налоговой службы № 14 по г.Москве) </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525000 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40101810045250010041 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">3432</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Взносы в ПФР за сотрудника за январь 2017 </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">22.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">69914911 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">27</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за расчетные услуги банка за период с 22/02/2017 по 22/02/2017 по договору банковского счета N10-34311 от 08/12/2016. НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">22.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">23 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">АО "Реестр" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525232 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40701810400000000130 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">16000</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Услуги регистратора по организации, созыву и проведению общего собрания акционеров, в том числе услуги по выполнению функций счетной комиссии в соответствии с Договором 94-СК от 16.02.2017 НДС не облагается </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">27.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">81720897 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">206.25</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за расчетные услуги банка за период с 27/02/2017 по 27/02/2017 по договору банковского счета N10-34311 от 08/12/2016. НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">27.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">28 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">УФК по г. Москве (Государственное учреждение  Московское региональное отделение Фонда социального страхования Российской Федерации) </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525000 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40101810045250010041 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">2349</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Взносы в ФСС за сотрудника. февраль 2017 </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">27.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">30 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО "АйТиЭс Коннект" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525593 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810102340000391 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">3800</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Оплата услуг по аренде сервера, аренде порта коммутатора 100Mbps и предоставлению IPv4-адреса договор № А-723 от 18.01.2017. за март 2017 НДС не облагается </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">27.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">27 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Управление Федерального казначейства по г. Москве (Инспекция Федеральной налоговой службы № 14 по г.Москве) </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525000 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40101810045250010041 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">4131</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Взносы в фонд обязательного медицинского страхования за сотрудников. февраль 2017 </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">27.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">29 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Управление Федерального казначейства по г. Москве (Инспекция Федеральной налоговой службы № 14 по г.Москве) </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525000 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40101810045250010041 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">10530</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Налог на доходы физических лиц, удержанный из доходов  работников за  февраль 2017 года. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">27.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">31 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО "СэвэнГрупп" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525593 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810402540000257 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">15000</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Арендная плата за март 2017 г. Договор субаренды №  КРАС/18/11/2016 от 18.11.2016 г. НДС не облагается </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">27.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">26 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Управление Федерального казначейства по г. Москве (Инспекция Федеральной налоговой службы № 14 по г.Москве) </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525000 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40101810045250010041 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">17820</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Взносы в ПФР за сотрудников за февраль 2017 </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">27.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">24 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Константинов Григорий Павлович </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525974 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40817810700000861391 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">30450</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Заработная плата за февраль 2017 г. НДС не облагается. НДФЛ удержан </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">27.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">25 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Гусев Арсентий Петрович </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40817810192003101428 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">40020</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Заработная плата за февраль 2017 г. НДС не облагается. НДФЛ удержан </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">27.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">33 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО Инженерный Центр "Комплекс-М" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525836 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810300000450649 </Data>
+				</Cell>
+				<Cell ss:StyleID="s46"/>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">40000</Data>
+				</Cell>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">За разработку тех.задания для договора N Д1702-0206 согласно счета N1702-0206 от 17.02.17 г. Без налога (НДС) </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">28.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">84076033 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">27</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за расчетные услуги банка за период с 28/02/2017 по 28/02/2017 по договору банковского счета N10-34311 от 08/12/2016. НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">28.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">85397588 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">250</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за период с 01/02/2017 по 28/02/2017 за ведение расчетного счета  НДС не облагается. Согласно п. 1.2 Сборника Тарифов. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">28.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">85267201 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">250</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за период с 01/02/2017 по 28/02/2017 за ведение расчетного счета  НДС не облагается. Согласно п. 1.2 Сборника Тарифов. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">28.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">86008591 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">625</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия ежемесячное обслуживание за период с 01/02/2017 по 28/02/2017 системы ДБО. НДС не облагается. Согласно п. 7.1 Сборника Тарифов. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">28.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">86008637 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за период с 01/02/2017 по 28/02/2017 за ведение расчетного счета  НДС не облагается. Согласно п. 1.2 Сборника Тарифов. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">28.02.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">32 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ЗАО "Сплайн-Центр" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525545 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810400010105010 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">22408.2</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">СПС Консультант Бизнес ОВК, (включая информационное сопровождение в течении 2 месяцев). договор № 26831. В том числе НДС </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">02.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">90079974 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">54</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за расчетные услуги банка за период с 02/03/2017 по 02/03/2017 по договору банковского счета N10-34311 от 08/12/2016. НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">02.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">34 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Общество с ограниченной ответственностью "Дом компонентов и оборудования ЭЛЕКТРОНЩИК" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525545 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810000014846814 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">6335.99</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Оплата товара по  СЧЕТУ № A-011579_17 от 2017-03-02 (по заказу № 05589771)  В том числе НДС 966.51 </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">02.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">33 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Общество с ограниченной ответственностью "Дом компонентов и оборудования ЭЛЕКТРОНЩИК" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525545 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810000014846814 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">36063.43</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Оплата товара по  СЧЕТУ № A-011310_17 от 2017-03-01 (по заказу № 05588215)  В том числе НДС 5501.20 </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">07.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">96695197 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">87.89</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за расчетные услуги банка за период с 07/03/2017 по 07/03/2017 по договору банковского счета N10-34311 от 08/12/2016. НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">07.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">36 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Константинов Григорий Павлович </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525974 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40817810700000861391 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">7810</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Возмещение затрат по отправке документов, согласно приказа П1703-0302 НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">07.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">35 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Константинов Григорий Павлович </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525974 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40817810700000861391 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">9768</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Возмещение затрат на создание макета, согласно приказа № П1703-0301. НДС не облагается </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">10.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">48 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО Инженерный Центр "Комплекс-М" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525836 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810300000450649 </Data>
+				</Cell>
+				<Cell ss:StyleID="s46"/>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">40000</Data>
+				</Cell>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">За работы по доработке программного обеспечения "Комплексмед" по договору N Д172-0203 от 13.02.17 г. Без налога (НДС) </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">14.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">6195489 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">76.13</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за расчетные услуги банка за период с 14/03/2017 по 14/03/2017 по договору банковского счета N10-34311 от 08/12/2016. НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">14.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">38 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Константинов Григорий Павлович </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525974 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40817810700000861391 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">15225</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Аванс за март 2017 г. НДС не облагается. НДФЛ удержан </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">14.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">37 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Гусев Арсентий Петрович </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40817810192003101428 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">20010</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Аванс за март 2017 г. НДС не облагается. НДФЛ удержан </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">15.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">8358699 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">27</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за расчетные услуги банка за период с 15/03/2017 по 15/03/2017 по договору банковского счета N10-34311 от 08/12/2016. НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">15.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">39 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ООО "Группа компаний "МДА"" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525976 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40702810322000022151 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">24000</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Аудиторская проверка бухгалтерской отчетности за 2016 г. по договору № 18/12-16 от 30.12.2016 г. (Аванс 100%) НДС не облагается </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">16.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">10354964 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">17 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">ФИЛИАЛ ЦЕНТРАЛЬНЫЙ ПАО БАНКА "ФК ОТКРЫТИЕ" </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525297 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">47423810502608000590 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">150.16</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Комиссия за расчетные услуги банка за период с 16/03/2017 по 16/03/2017 по договору банковского счета N10-34311 от 08/12/2016. НДС не облагается. </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">16.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">41 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Управление Федерального казначейства по г. Москве (Инспекция Федеральной налоговой службы № 14 по г.Москве) </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525000 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">40101810045250010041 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">4487.6</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Налог на доходы физических лиц, удержанный из дохода работника по договору №д1702-0205  .Панин Степан Александрович инн 771575061847 </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="21">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s39">
+					<Data ss:Type="String">16.03.2017 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">40 </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">01 </Data>
+				</Cell>
+				<Cell ss:StyleID="s41">
+					<Data ss:Type="String">Панин Степан Александрович </Data>
+				</Cell>
+				<Cell ss:StyleID="s40">
+					<Data ss:Type="String">044525716 </Data>
+				</Cell>
+				<Cell ss:StyleID="s42">
+					<Data ss:Type="String">30232810481100000009 </Data>
+				</Cell>
+				<Cell ss:StyleID="s43">
+					<Data ss:Type="Number">30032.4</Data>
+				</Cell>
+				<Cell ss:StyleID="s44"/>
+				<Cell ss:StyleID="s45">
+					<Data ss:Type="String">Для зачисления на карту 4272 2909 6502 0589 Панин Степан Александрович оплата по договору   № Д1702-0205 НДС не облагается НДФЛ удержан </Data>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="13.8">
+				<Cell ss:StyleID="s24">
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell ss:StyleID="s29">
+					<Data ss:Type="String">ИСХОДЯЩИЙ ОСТАТОК </Data>
+				</Cell>
+				<Cell ss:StyleID="s47"/>
+				<Cell ss:StyleID="s47"/>
+				<Cell ss:StyleID="s30"/>
+				<Cell ss:StyleID="s30"/>
+				<Cell ss:StyleID="s31"/>
+				<Cell ss:StyleID="s32"/>
+				<Cell ss:StyleID="s33">
+					<Data ss:Type="Number">498946.54</Data>
+				</Cell>
+				<Cell ss:StyleID="s34"/>
+			</Row> </Table>
+		<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+			<PageSetup>
+				<PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996" x:Right="0.78740157499999996" x:Top="0.984251969"/>
+			</PageSetup>
+			<Unsynced/>
+			<Print>
+				<ValidPrinterInfo/>
+				<PaperSizeIndex>9</PaperSizeIndex>
+				<HorizontalResolution>600</HorizontalResolution>
+				<VerticalResolution>600</VerticalResolution>
+			</Print>
+			<Selected/>
+			<Panes>
+				<Pane>
+					<Number>3</Number>
+					<ActiveRow>18</ActiveRow>
+					<ActiveCol>7</ActiveCol>
+				</Pane>
+			</Panes>
+			<ProtectObjects>False</ProtectObjects>
+			<ProtectScenarios>False</ProtectScenarios>
+		</WorksheetOptions>
+	</Worksheet>
+	<Worksheet ss:Name="Лист2">
+		<Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1" x:FullRows="1" ss:DefaultRowHeight="13.2"/>
+		<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+			<PageSetup>
+				<PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996" x:Right="0.78740157499999996" x:Top="0.984251969"/>
+			</PageSetup>
+			<Unsynced/>
+			<ProtectObjects>False</ProtectObjects>
+			<ProtectScenarios>False</ProtectScenarios>
+		</WorksheetOptions>
+	</Worksheet>
+	<Worksheet ss:Name="Лист3">
+		<Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1" x:FullRows="1" ss:DefaultRowHeight="13.2"/>
+		<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+			<PageSetup>
+				<PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996" x:Right="0.78740157499999996" x:Top="0.984251969"/>
+			</PageSetup>
+			<Unsynced/>
+			<ProtectObjects>False</ProtectObjects>
+			<ProtectScenarios>False</ProtectScenarios>
+		</WorksheetOptions>
+	</Worksheet>
+</Workbook>
